@@ -1,0 +1,54 @@
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Almacen Computadoras </title>
+        <link href="./styles.css" rel="stylesheet">
+    
+    </head>
+    
+    <body>
+       <div> <img src="imagenes/computador de mesagamer.jpg" id="logo" ></div>
+        <main id="section1" class="visible">
+            <div id="title">
+                <h1>Almacen de Computadoras</h1>
+            </div>
+            
+            <div class="containerform">
+                <form>
+                    <div id="formbox">
+                        <h2>Cantidad de computadoras compradas:</h2>
+                        <input type="number" id="quantity">
+                    </div>
+                    <button id="boton">calcular</button>
+                </form>
+            </div>
+    
+        </main>
+        <main id="section2" class="hide">
+            
+            <div id="totalCompra">
+            
+                <input readonly></input>
+            </div>
+            <div id="discount">
+                <div class="pTwo">Orden de compra</div>
+                <h2>Valor del descuento</h2>
+                <input readonly></input>
+            </div>
+           
+            <div id="total">
+                <h1>Total</h1>
+                <input readonly></input>
+            </div>
+            <h3 id="labelDiscount"></h3>
+        </main>
+    </body>
+    <script src="./scripts/scripts.js"></script>
+    
+    </html>
+    
+    
